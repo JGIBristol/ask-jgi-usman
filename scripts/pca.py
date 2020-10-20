@@ -13,7 +13,7 @@ import sklearn.decomposition.pca as pca  # for PCA
 import plotly.express as px  # for interactive plots
 
 # READ IN DATA:
-df = pd.read_csv('tidy_data.csv', index_col='wvn')
+df = pd.read_csv('../data/tidy_data.csv', index_col='wvn')
 
 # PCA:
 n_components = 2  # Number of principal components to reduce to.
